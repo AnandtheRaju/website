@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>for you</title>
+        <link rel="styles" href="styles.css">
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: aliceblue;
+                overflow: hidden;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            .watermark {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none; /* Allows clicks to go through the watermark */
+                opacity: 0.1; /* Adjust opacity as needed */
+                font-size: 5em; /* Adjust font size as needed */
+                line-height: 1; /* Adjust line height as needed */
+                text-align: center;
+                z-index: -1; /* Behind all other content */
+            }
+            p{
+                text-align: center;
+                padding-top: 7%;
+                font-size: larger;
+                font-weight: bolder;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            button{
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: larger;
+                padding: 5px;
+                background: rgb(203, 203, 231);
+                border-radius: 10px;
+                border-color: brown;
+            }
+            button:hover{
+                background-color: red;
+                color: yellow;
+            }
+            h1:hover{
+                background-color: red;
+                color: yellow;
+            }
+            h1{
+                text-align: center;
+                background: rgb(232, 95, 95);
+                color: aliceblue;
+                width: 100%;
+                font-size: 50px;
+            }
+            #texts{
+                margin: 50px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            #click{
+                margin-left: 48%;
+            }
+            .hidden{
+                display: none;
+            }
+            
+        </style>
+    </head>
+
+    <script>
+        const clcik = document.getElementById('clcik');
+        const yes = document.getElementById('yes');
+        const no = document.getElementById('no');
+        
+        click.addEventlistener('click', ()=> {
+            yes.classlist.remove('hidden');
+            no.classList.remove('hidden');
+        });
+    </script>
+
+    <body>
+        <div class="watermark">
+            ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND ANAND 
+            </div>
+        <h1>LET ME RIZZ YOU UP!</h1>
+        <p id="texts">I'm just writing coz I want to, started learning web for my sem end exams. So just letting you know UwU <br> I just cant believe 'yeah here we go again' that im doing this coz why not :) <br><br> right? Right?? RIGHT??? AHHHHH.....!<br><br>The only way I could think of getting myself to learn something..</p>
+
+    <a href="C:\Users\ANAND RAJU\web.programs\practice.web\.vscode\2.html" target="_blank">
+        <button id="click" class="btns">Quick Question</button>
+    </a>
+        <button id="yes" class="hidden">YES</button>
+        <button id="no" class="hidden">NO</button>
+
+       
+    </body>
+</html>
