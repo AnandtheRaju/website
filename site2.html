@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>for you 2</title>
+        <style>
+            pre{
+                margin-top: 130px;
+                text-align: center;
+                padding: 60px;
+                font-size:large;
+                color: white;
+            }
+            p{
+                text-align: center;
+                padding: 60px;
+                color: white;
+            }
+            body{
+                background-color: rgb(46, 44, 44);
+            }
+            #buttons{
+                text-align: center;
+            }
+            button{
+                border-radius: 10px;
+                padding: 10px;
+                color: black;
+                font-weight: 600;
+            }
+            #yes{
+                background-color: rgb(255, 0, 0);
+            }
+            #no{
+                background-color: rgb(0,255, 0);
+            }
+            #link{
+                text-align: center;
+            }
+            #hidden{
+                color: gold;
+                font-weight: 800;
+            }
+        </style>
+    </head>
+    <script>
+        function aww(){
+            let txt;
+            txt = "AWWW!! But I will, if you wont quit acting soo cute!";
+            document.getElementById('hidden').innerHTML=txt;
+        }
+        function rite(){
+            let text = "GOOD LUCK WITH THAT!";
+            let br = document.createElement('br');
+            let link = document.createElement('a');
+            link.href = "https://www.whirlpoolindia.com/refrigerators";
+            link.textContent = 'look for refrigerators!';
+            link.style.color="blue";
+            document.getElementById('hidden').innerHTML='';
+            document.getElementById('hidden').appendChild(document.createTextNode(text));
+            document.getElementById('hidden').appendChild(br);
+            document.getElementById('hidden').appendChild(link);
+        }
+        
+    </script>
+    <body>
+        <pre>SONIKA, Are you really gonna KILL me ??<br><br>LIKE DEAD ASS ???</pre>
+        <div id="buttons">
+
+                <button id="yes" onclick="rite()">YES</button>
+            
+                <button id="no" onclick="aww()">NO.</button>
+        </div>
+
+        <p id="hidden"></p>
+
+        <div id="link">
+            <a href="C:\Users\ANAND RAJU\web.programs\practice.web\.vscode\news.html" style="color:palevioletred;">HOME</a>
+        </div>
+    </body>
+</html>
